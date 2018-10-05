@@ -17,7 +17,7 @@ class App extends React.Component<{}, { imagePreviewUrl: string , slice: number[
     let position = {
       height: 0,
       left: 0, 
-      top: 400, 
+      top: 0, 
       width: 0, 
     }
  
@@ -75,7 +75,7 @@ class App extends React.Component<{}, { imagePreviewUrl: string , slice: number[
           <input type='file' onChange={this.handleImageChange} />
         </form>
         {doc}
-        <svg className="App-Svg-Overlay" style={{position: "absolute", top: position.top, left: position.left, opacity: 0.3, height: "100%", width: "100%"}}>
+        <svg className="App-Svg-Overlay" style={{position: "absolute", top: position.top, left: position.left, opacity: 0.3, height: position.height, width: position.width}}>
           <g>
             {svg}
           </g>
