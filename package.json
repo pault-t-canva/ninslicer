@@ -8,13 +8,10 @@
     "react-scripts-ts": "3.1.0"
   },
   "scripts": {
-    "start_": "react-scripts-ts start",
-    "build_": "react-scripts-ts build",
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject",
-    "start": "node build/index.js",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
