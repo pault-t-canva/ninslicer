@@ -14,8 +14,7 @@
     "eject": "react-scripts-ts eject",
     "start": "node build/index.js",
     "build": "tsc",
-    "postinstall": "npm run build"
-    }
+    "postinstall": "npm run build",
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
